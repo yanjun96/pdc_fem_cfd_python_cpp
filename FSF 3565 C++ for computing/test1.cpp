@@ -1,15 +1,10 @@
 #include <iostream>
-
-int main() {
-
-int a = 3;
-int b = 2000;
-
-int c = a * b;
-
-
-std::cout <<"The value of c is: " << c << std::ends;
-
+int main(){
+    
+int sum = 0;
+for (int i = 1; i <= 100; i++) sum += i;
+std::cout << sum << std::endl;
 return 0;
 
 }
+

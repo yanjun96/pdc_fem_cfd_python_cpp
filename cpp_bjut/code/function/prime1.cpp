@@ -5,12 +5,12 @@ int main() {
 
 int i;
 
-for (i=1; i<=100; i++){
+for (i=2; i<=100; i++){
   if (i%10 == 0){
   printf("\n");
   }
   if (prime(i) == 1) { 
-  printf("%6d",i);
+  printf("%8d",i);
   }
 }
 
@@ -24,7 +24,7 @@ if (m == 1){
 return 0;
 }
 
-for (i=1; i<=sqrt(m); i++){
+for (i=2; i<=sqrt(m); i++){
   if (m%i == 0){
   return 0;
   }

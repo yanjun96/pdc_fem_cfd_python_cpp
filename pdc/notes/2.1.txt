@@ -1,0 +1,35 @@
+Shared memory programming with OpenMP:
+https://gitlab.com/njansson/openmp_cpu 
+
+basic assumptions: shared memory support.
+thread: runtime entity able to independently excute a instruction.
+processes and threads: a process has its own address space. Threads have their individual program counters but share the same address space.
+
+OPenMP: An API for writting paraller applications.
+
+OPenMP directives: in c/c++ directives begin with
+#pragma omp
+
+Paraller region:
+a paraller region is a region exectued by all threads
+
+#include<stdio.h>
+#include<omp.h>
+
+
+different compilers have different flags for OpenMP:
+Gnu, interl cray nvidia
+
+compiler order can't control.
+
+Memory organisation: shared variables(default), private variables(need to specify)
+
+firstprivate: number before parallel would cange in parallel, it should copy from initial thread.
+
+in parallel region, it is not easy to private variables.
+
+access to shared variables: atomic
+
+openmp work-sharing: #pragma opm parallel for
+
+reductions: a reduction is used to create code for recurrence.g

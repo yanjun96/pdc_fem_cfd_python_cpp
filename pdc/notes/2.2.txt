@@ -1,0 +1,3 @@
+OpenMP: many threads may idle.
+
+memory:map clause can control data movement.

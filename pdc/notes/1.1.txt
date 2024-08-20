@@ -1,0 +1,50 @@
+19th, 1st
+supercomputers: fast operation + process lots of data
+anatomy of supercomputer: cluster blade(node) cpu and gpu
+
+parallel machine models: shared, distributed, hybrids
+
+multi-core cpus: shared memory
+cluster: distributed memory
+
+peak performance: 70% of the ideal capabilities, since communication
+
+shared memory model: good to scale up
+distributed memory model: good to scale out
+
+tip: algorithm needs think about machine
+
+19th, 2nd
+distance means problem: 
+1: limited space
+2: extensible
+3: cooling
+
+processor basic operation:
+cpu: excites the appllication
+memory: stores the code
+bus: bits movement
+
+ALU runs at its own clock speed/frequency: define how many clcyles can be excuted by the CPU.
+Higher performance cpus: faster alu(more operation per cycle), faster cpus, multiple cores.
+
+memory: organized as linear spaces
+
+cpu-memory gap: bottleneck is memory.
+memory hierarchy: bring some of the data closer to the processor, this data is cached.
+cache: a smaller, faster storage.
+smaller but faster, larger but slower: cache, DRAM, local disk.
+
+Locality: programs tend to use data and instructions with addresses near or equal to those they have used recently.
+
+way of loops have influence to speed:ijk or jki.
+
+main challenges: compute and memory performance grow at different speeds.
+
+make use of caching: memory access patterns.
+take care of the data size: single precision or double precision, there are also mix precision.
+
+Memory operations are the main bottleneck for HPC.
+
+cpu: minimize latency experienced by 1 thread.
+gpu: maximize the all threads.

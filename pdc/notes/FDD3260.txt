@@ -1,0 +1,19 @@
+FDD3260:
+
+5 creduts,
+4 weeks. 1st week in summer school, 2 weeks in implementation, 1 weeks for report.
+pass or fail.
+pass the course: a group project(1-4 people).
+
+project topic:
+up to you. but must performance optimization with OpenMP or MPI. or GPU porting of an HPC code.
+Fortan c, python are ok.
+ideally: I am using performance analysis, I parallelize with OpenMP.
+
+report:maximum ten pages.
+Introduction, background, methodology, result, related work, and conclusion.
+deadline, october 16, 2024.
+
+markidis@kth.se.
+
+

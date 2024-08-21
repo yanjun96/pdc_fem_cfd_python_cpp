@@ -33,3 +33,8 @@ access to shared variables: atomic
 openmp work-sharing: #pragma opm parallel for
 
 reductions: a reduction is used to create code for recurrence.g
+
+
+
+BSC:https://tools.bsc.es/downloads 
+Performance analysis, lots of tools.

@@ -1,0 +1,34 @@
+GPU: 
+
+NVIDIA: 2006, CUDA, based on c++
+AMD: HIP 2015
+
+#include<hip/hip>runtime.h>
+
+checking errors.
+
+allocation device memory: h is host, d is device.
+hipMalloc
+hipFree
+
+Moving data between host and device: hipMemcpy
+
+NEKO: cat in Japanese.
+10% energy is spent overcoming trubulent friction.
+
+Memory management is quiet important
+Stream:synchronise
+Both NVIDIA and AMD has its own ecosystem, using libraries.
+GPU to GPU communication: RCCL from AMD.
+
+How to optimize the use of GPU:
+ENOUGH PARALLELISH
+MINIMISE DATA TRANSFER
+use streams and asynchrnous
+launch multiple kernels
+
+performance analysis:
+1: avoid code modification first, compiler flags
+2: use perofrmance analysis tool
+
+two fundamental ways: sampling and event tracing.

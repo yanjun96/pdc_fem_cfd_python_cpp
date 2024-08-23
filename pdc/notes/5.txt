@@ -1,0 +1,5 @@
+some powerful tool not in pdc website:
+
+1:gdb4hpc
+2:arm ddt
+3:perftools (this one looks very good, check the slide in gpu)

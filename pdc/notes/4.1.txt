@@ -1,0 +1,23 @@
+Introduction to MPI programming:
+MPI: message passing interface.
+shared memory multiprocessor: uniform memory access and nonuniform memory access.
+cache: main memory is shared, caches are local to individual processors.
+cache coherence oroblem: need synchronization, generic 3 steps, related to lock.
+
+synchronous communication: sender/receiver wait until data has been sent/received.
+
+dardel: node is a shared system, one node has 2 cpus, these cpus have their own cache.
+
+SPMD: single program multiple data.
+single program is exectued by all tasks simultaneously.
+
+MPMD: multiple program multiple data.
+
+we focus on SPMD: need to decompose a problem
+Functional decomposition: each task then performs a portion of the overall work.
+
+data distribution: job needs to be allocated evenly.
+
+Message passing: low level programming, difficult to use.
+
+

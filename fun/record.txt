@@ -1,9 +1,0 @@
-author:   yanjun zhang
-time:     2024-11-25
-location: Stockholm
-
-Both python.py and cpp.cpp are used to print 1e7 numbers.
-While python need 30 s and cpp need 20 s.
-Cpp is much faster than python. 
-But sometimes I noticed that python will automatically create a pychae file that used to facilate the python calculation. In this case, no pychae files are discovered. Maybe after generate this files, the python would be faster.
-
